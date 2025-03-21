@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://3uyl1ri7nlxi"]
+
+[ext_resource type="Script" path="res://pl_2_winner_text.gd" id="1_ngdlc"]
+
+[node name="pl_2_winner_text" type="Node2D"]
+script = ExtResource("1_ngdlc")
+
+[node name="Label" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0

@@ -1,0 +1,29 @@
+[gd_scene load_steps=2 format=3 uid="uid://dq047rj6irbyl"]
+
+[ext_resource type="Script" path="res://main_menu.gd" id="1_5jynx"]
+
+[node name="main_menu" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_5jynx")
+
+[node name="multiplayer" type="Button" parent="."]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="quit" type="Button" parent="."]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[node name="single player" type="Button" parent="."]
+layout_mode = 0
+offset_right = 8.0
+offset_bottom = 8.0
+
+[connection signal="pressed" from="multiplayer" to="." method="_on_multiplayer_pressed"]
+[connection signal="pressed" from="quit" to="." method="_on_quit_pressed"]
+[connection signal="pressed" from="single player" to="." method="_on_single_player_pressed"]
