@@ -1,6 +1,6 @@
 [gd_scene load_steps=4 format=3 uid="uid://d3qsyo06vwny5"]
 
-[ext_resource type="Script" path="res://Player1.gd" id="1_f6hrk"]
+[ext_resource type="Script" uid="uid://dh8ofa3xtywro" path="res://Player1.gd" id="1_f6hrk"]
 [ext_resource type="Texture2D" uid="uid://xbvy6c5hacu0" path="res://Assets/pong player.png" id="2_bim66"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_mlyc5"]

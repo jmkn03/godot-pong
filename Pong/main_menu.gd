@@ -5,7 +5,8 @@ extends Control
 @onready var multiplayer_button = $multiplayer
 
 var playing
-print("aaa")
+var gamemode
+
 
 func _ready():
 	
